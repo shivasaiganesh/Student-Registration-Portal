@@ -2,7 +2,7 @@
 
 A modern, fast, and fully responsive Student Registration System built with **React**, **Vite**, **Tailwind CSS v4**, and **Supabase**.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new)
+[![Deploy to Cloudflare Pages](https://cloudflare-pages.com/deploy.svg)](https://dash.cloudflare.com/pages/deploy)
 
 ## ✨ Features
 
@@ -94,10 +94,17 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ## ☁️ Deployment
 
-The easiest way to deploy this application is using **Railway**. Railway automatically detects Vite React apps and handles the build and static hosting.
+The absolute best and completely free way to host this Vite application is using **Cloudflare Pages**.
 
-1. Create an account on [Railway.app](https://railway.app/).
-2. Click **New Project** -> **Deploy from GitHub repo**.
-3. Select this repository (`Student-Registration-Portal`).
-4. Click **Add Variables** and paste your `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` from your `.env.local` file.
-5. Click **Deploy**. Railway will automatically run `npm run build` and serve your static site globally!
+1. Create a free account at [Cloudflare Dashboard](https://dash.cloudflare.com/).
+2. On the left sidebar, click **Workers & Pages**.
+3. Click **Create** -> **Pages** -> **Connect to Git**.
+4. Select this GitHub repository (`Student-Registration-Portal`).
+5. In the **Set up builds and deployments** section:
+   - **Framework preset**: `Vite` (or `None`)
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+6. Click **Environment Variables** (under advanced) and add:
+   - `VITE_SUPABASE_URL` = (your project URL)
+   - `VITE_SUPABASE_ANON_KEY` = (your anon key)
+7. Click **Save and Deploy**. Cloudflare will instantly build and host your site on their blazing-fast global network for free!
