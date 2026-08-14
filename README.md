@@ -2,6 +2,12 @@
 
 A modern, fast, and fully responsive Student Registration System built with **React**, **Vite**, **Tailwind CSS v4**, and **Supabase**.
 
+## 📖 About
+
+The Student Registration Portal is a comprehensive, cloud-connected web application designed to streamline the management of student records. It features a stunning glassmorphism user interface, real-time database syncing, and secure cloud storage for student profile photos. 
+
+**🟢 Live Demo:** [https://student-registration-portal.shivasaiganesh-samineni.workers.dev](https://student-registration-portal.shivasaiganesh-samineni.workers.dev)
+
 [![Deploy to Cloudflare Pages](https://cloudflare-pages.com/deploy.svg)](https://dash.cloudflare.com/pages/deploy)
 
 ## ✨ Features
