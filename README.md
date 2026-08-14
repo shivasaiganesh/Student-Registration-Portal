@@ -2,7 +2,7 @@
 
 A modern, fast, and fully responsive Student Registration System built with **React**, **Vite**, **Tailwind CSS v4**, and **Supabase**.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fshivasaiganesh%2FStudent-Registration-Portal&env=VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new)
 
 ## ✨ Features
 
@@ -94,7 +94,10 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ## ☁️ Deployment
 
-The easiest way to deploy this application is to use the Vercel Platform.
-Simply click the **Deploy with Vercel** button at the top of this README. 
+The easiest way to deploy this application is using **Railway**. Railway automatically detects Vite React apps and handles the build and static hosting.
 
-During the Vercel deployment, you will be prompted to enter your `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` as Environment Variables.
+1. Create an account on [Railway.app](https://railway.app/).
+2. Click **New Project** -> **Deploy from GitHub repo**.
+3. Select this repository (`Student-Registration-Portal`).
+4. Click **Add Variables** and paste your `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` from your `.env.local` file.
+5. Click **Deploy**. Railway will automatically run `npm run build` and serve your static site globally!
